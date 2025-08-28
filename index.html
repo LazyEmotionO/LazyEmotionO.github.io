@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="專業程式開發與網頁設計服務 - 自動化交易系統、企業管理系統、客製化軟體開發">
+    <title>專業軟體開發作品集 | Full-Stack Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <span class="brand-text">Developer Portfolio</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">首頁</a>
+                <a href="#projects" class="nav-link">專案作品</a>
+                <a href="#skills" class="nav-link">技術專長</a>
+                <a href="#contact" class="nav-link">聯絡方式</a>
+            </div>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="hero-particles"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="title-main">專業軟體開發</span>
+                <span class="title-sub">Full-Stack Developer</span>
+            </h1>
+            <p class="hero-description">
+                專注於金融科技、自動化系統與企業管理解決方案<br>
+                提供高品質、可擴展的軟體開發服務
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">查看專案作品</a>
+                <a href="#contact" class="btn btn-outline">立即聯絡</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number" data-count="3">0</span>+
+                    <span class="stat-label">完成專案</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="100">0</span>%
+                    <span class="stat-label">客戶滿意度</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="5">0</span>+
+                    <span class="stat-label">技術領域</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">專案作品展示</h2>
+                <p class="section-subtitle">實際完成的商業專案，展現技術實力與解決問題的能力</p>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card" data-project="trading">
+                    <div class="project-image-container">
+                        <div class="project-images-slider">
+                            <img src="自動化交易圖片/1.png" alt="自動化交易系統截圖1" class="project-image active">
+                            <img src="自動化交易圖片/2.png" alt="自動化交易系統截圖2" class="project-image">
+                            <img src="自動化交易圖片/3.png" alt="自動化交易系統截圖3" class="project-image">
+                        </div>
+                        <div class="image-indicators">
+                            <span class="indicator active" data-index="0"></span>
+                            <span class="indicator" data-index="1"></span>
+                            <span class="indicator" data-index="2"></span>
+                        </div>
+                        <div class="project-overlay">
+                            <span class="view-details">查看圖片</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">自動化交易系統</h3>
+                        <div class="project-type">金融科技 / FinTech</div>
+                        <p class="project-description">
+                            整合券商API實現全自動化期貨交易系統。透過即時K棒數據分析與技術指標計算，根據客製化參數自動執行買賣決策，實現24/7不間斷的智能交易。
+                        </p>
+                        <div class="project-features">
+                            <div class="feature-item">
+                                <svg class="feature-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                <span>即時數據串接與分析</span>
+                            </div>
+                            <div class="feature-item">
+                                <svg class="feature-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                <span>多重技術指標計算</span>
+                            </div>
+                            <div class="feature-item">
+                                <svg class="feature-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                <span>自動下單執行機制</span>
+                            </div>
+                            <div class="feature-item">
+                                <svg class="feature-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                <span>客製化參數配置</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">API Integration</span>
+                            <span class="tech-tag">Real-time Data</span>
+                            <span class="tech-tag">Financial Analysis</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-project="copytrade">
+                    <div class="project-image-container">
+                        <div class="project-placeholder">
+                            <svg class="placeholder-icon" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z"/>
+                                <path d="M12 22V8"/>
+                                <path d="M8 10l4 4 4-4"/>
+                            </svg>
+                            <span class="placeholder-text">系統架構圖</span>
+                        </div>
+                        <div class="project-overlay">
+                            <span class="view-details">查看圖片</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">智能跟單系統</h3>
+                        <div class="project-type">自動化交易 / Automation</div>
+                        <p class="project-description">
+                            創新的訊息驅動交易系統。透過解析Telegram即時交易訊號，自動識別交易代碼、數量與方向，並透過券商API立即執行對應下單，實現毫秒級跟單交易。
+                        </p>
+                        <div class="project-features">
+                            <div class="feature-item">
+                                <svg class="feature-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                <span>Telegram訊息即時解析</span>
+                            </div>
+                            <div class="feature-item">
+                                <svg class="feature-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                <span>智能訊息內容分析</span>
+                            </div>
+                            <div class="feature-item">
+                                <svg class="feature-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                <span>自動化下單執行</span>
+                            </div>
+                            <div class="feature-item">
+                                <svg class="feature-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                <span>風險控管機制</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Telegram Bot API</span>
+                            <span class="tech-tag">Natural Language Processing</span>
+                            <span class="tech-tag">Async Programming</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-project="accounting">
+                    <div class="project-image-container">
+                        <div class="project-images-slider">
+                            <img src="作帳網頁圖片/1.png" alt="作帳管理系統截圖1" class="project-image active">
+                            <img src="作帳網頁圖片/2.png" alt="作帳管理系統截圖2" class="project-image">
+                            <img src="作帳網頁圖片/3.png" alt="作帳管理系統截圖3" class="project-image">
+                            <img src="作帳網頁圖片/4.png" alt="作帳管理系統截圖4" class="project-image">
+                        </div>
+                        <div class="image-indicators">
+                            <span class="indicator active" data-index="0"></span>
+                            <span class="indicator" data-index="1"></span>
+                            <span class="indicator" data-index="2"></span>
+                            <span class="indicator" data-index="3"></span>
+                        </div>
+                        <div class="project-overlay">
+                            <span class="view-details">查看圖片</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">企業帳務管理系統</h3>
+                        <div class="project-type">企業管理 / ERP</div>
+                        <p class="project-description">
+                            為企業量身打造的全方位帳務管理平台。整合資料輸入、統計分析、管理監控與歷史記錄功能，提供直覺化操作介面與即時數據視覺化儀表板。
+                        </p>
+                        <div class="project-features">
+                            <div class="feature-item">
+                                <svg class="feature-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                <span>智能資料輸入系統</span>
+                            </div>
+                            <div class="feature-item">
+                                <svg class="feature-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                <span>即時統計分析報表</span>
+                            </div>
+                            <div class="feature-item">
+                                <svg class="feature-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                <span>權限分級管理</span>
+                            </div>
+                            <div class="feature-item">
+                                <svg class="feature-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                <span>完整歷史記錄追蹤</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">React.js</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Chart.js</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">技術專長</h2>
+                <p class="section-subtitle">掌握多領域技術棧，提供全方位解決方案</p>
+            </div>
+            
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="9" y1="9" x2="15" y2="9"></line>
+                            <line x1="9" y1="15" x2="15" y2="15"></line>
+                        </svg>
+                    </div>
+                    <h3 class="skill-title">前端開發</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">HTML5 / CSS3 / JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">React.js / Vue.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Responsive Design</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="16 18 22 12 16 6"></polyline>
+                            <polyline points="8 6 2 12 8 18"></polyline>
+                        </svg>
+                    </div>
+                    <h3 class="skill-title">後端開發</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">PHP / Laravel</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Python / Django / Flask</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="93"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">RESTful API Design</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="90"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="10" r="3"></circle>
+                            <path d="M12 21.7C17.3 17 20 13 20 10a8 8 0 1 0-16 0c0 3 2.7 6.9 8 11.7z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="skill-title">Python 爬蟲開發</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">BeautifulSoup / Scrapy</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="92"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Selenium 自動化</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">數據清洗與處理</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="90"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="skill-title">專業領域</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">金融科技整合</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">自動化系統</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="92"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">數據分析處理</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="87"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tech-stack">
+                <h3 class="tech-stack-title">技術棧</h3>
+                <div class="tech-badges">
+                    <span class="tech-badge">PHP</span>
+                    <span class="tech-badge">Python</span>
+                    <span class="tech-badge">JavaScript</span>
+                    <span class="tech-badge">Laravel</span>
+                    <span class="tech-badge">Django</span>
+                    <span class="tech-badge">Flask</span>
+                    <span class="tech-badge">PostgreSQL</span>
+                    <span class="tech-badge">MySQL</span>
+                    <span class="tech-badge">BeautifulSoup</span>
+                    <span class="tech-badge">Scrapy</span>
+                    <span class="tech-badge">Selenium</span>
+                    <span class="tech-badge">Pandas</span>
+                    <span class="tech-badge">React</span>
+                    <span class="tech-badge">Vue.js</span>
+                    <span class="tech-badge">Git</span>
+                    <span class="tech-badge">RESTful API</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">開始合作</h2>
+                <p class="section-subtitle">讓我們一起將您的想法轉化為現實</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 class="contact-title">聯絡資訊</h3>
+                    <p class="contact-description">
+                        無論您有任何專案需求或合作想法，歡迎隨時與我聯繫。我將在24小時內回覆您的訊息。
+                    </p>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <svg class="contact-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                            <span>a55546415@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <svg class="contact-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                            </svg>
+                            <span>LINE ID: 55546415</span>
+                        </div>
+                        <div class="contact-item">
+                            <svg class="contact-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                            <span>週一至週五 09:00 - 18:00</span>
+                        </div>
+                    </div>
+                    <div class="contact-cta">
+                        <h4>準備開始您的專案了嗎？</h4>
+                        <p>提供免費諮詢服務，協助您評估專案需求與可行性</p>
+                        <a href="mailto:a55546415@gmail.com" class="btn btn-primary">立即聯絡</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3 class="footer-brand">Developer Portfolio</h3>
+                    <p class="footer-description">專注於提供高品質的軟體開發服務</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home" class="footer-link">首頁</a>
+                    <a href="#projects" class="footer-link">專案</a>
+                    <a href="#skills" class="footer-link">技術</a>
+                    <a href="#contact" class="footer-link">聯絡</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Developer Portfolio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <button class="scroll-to-top" id="scrollToTop">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+    </button>
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="image-modal">
+        <span class="modal-close">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div class="modal-caption" id="modalCaption"></div>
+        <button class="modal-nav modal-prev" id="modalPrev">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="15 18 9 12 15 6"></polyline>
+            </svg>
+        </button>
+        <button class="modal-nav modal-next" id="modalNext">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
